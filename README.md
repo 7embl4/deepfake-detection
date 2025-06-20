@@ -2,8 +2,11 @@
 Repository of course work. This research based on paper [*Recurrent Convolutional Strategies for Face Manipulation Detection in Videos, CVPR Workshop 2019*](https://arxiv.org/abs/1905.00582) (*).
 
 ## Model
-![Hierarchical model with several RNNs that learn features on different levels of image representation](https://github.com/7embl4/deepfake-detection/blob/main/architecture.drawio.png)
+Hierarchical model with several RNNs that learn features on different levels of image representation made by image encoder.
+This is the same architecture used in (*), but I think this diagram looks better than papers one.
+![](https://github.com/7embl4/deepfake-detection/blob/main/architecture.drawio.png)
 
+## Results 
 Unlike (*) I used two models based on transformer architecrure: ViT and SwinTransformer. And also tried non-hierarchical method, using only final representations of Image Encoders. You can see the result of the research in table below. 
 As you can see, transformers have good accuracy (especially Swin), but there are still the gap to CNN model. However I used FaceForensics++ dataset, that actually quite small. 
 Since transformer architecture perform as better as more data used for training, there is a chance that transformers may show better results on large datasets in comparison to CNNs. 
