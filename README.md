@@ -1,9 +1,9 @@
-## Deepfakes Detection
+# Deepfakes Detection
 Repository of course work. This research based on paper [*Recurrent Convolutional Strategies for Face Manipulation Detection in Videos, CVPR Workshop 2019*](https://arxiv.org/abs/1905.00582) (*).
 
 ## Model
 Hierarchical model with several RNNs that learn features on different levels of image representation made by image encoder.
-This is the same architecture used in (*), but I think this diagram looks better than papers one.
+This is the same architecture used in (*), but I think this diagram looks better than the papers one.
 ![](https://github.com/7embl4/deepfake-detection/blob/main/architecture.drawio.png)
 
 ## Results 
